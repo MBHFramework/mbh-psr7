@@ -1,0 +1,25 @@
+{
+    "name": "mbh-framework/mbh-psr7",
+    "description": "Strict PSR-7 implementation for MBH Framework",
+    "type": "library",
+    "require": {
+        "php": "^7.2",
+        "psr/http-message": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ulises-jeremias",
+            "email": "ulisescf.24@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mbh\\": "Mbh",
+            "Mbh\\Tests\\": "tests"
+        }
+      }
+}
